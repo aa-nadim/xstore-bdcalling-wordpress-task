@@ -130,10 +130,12 @@ add_action('woocommerce_process_product_meta', 'save_custom_pricing_fields');
 
 ```
 
-5. Now you can check this in the WordPress dashboard: Go to Products > All Products.Find your product and click Edit.
+5. Activate the 'Woocommerce' plugin.
+
+6. Now you can check this in the WordPress dashboard: Go to Products > All Products.Find your product and click Edit.
    On the right side under Product Categories, ensure "Walking Tours" is checked where Slug must be 'walking-tours'.
 
-6. I also added the database. you can input it into phpmyadmin. `https://github.com/aa-nadim/xstore-bdcalling-wordpress-task/blob/main/database/xstore.sql`
+7. I also added the database. you can input it into phpmyadmin. `https://github.com/aa-nadim/xstore-bdcalling-wordpress-task/blob/main/database/xstore.sql`
 
 ## Project's demo
 
