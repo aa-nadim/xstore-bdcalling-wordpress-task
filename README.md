@@ -1,5 +1,17 @@
 # xstore-bdcalling-wordpress-task
 
+# How you can see the project
+
+0. download or git clone my github repository `https://github.com/aa-nadim/xstore-bdcalling-wordpress-task`
+
+1. setup WAMP
+
+2. download wordpress --> `https://wordpress.org/latest.zip`
+
+3. in WAMP, copy paste the wordpress folder
+
+4. in `C:\wamp64\www\XStore\wp-content\themes`, copy paste `https://github.com/aa-nadim/xstore-bdcalling-wordpress-task/tree/main/wp-content/themes/twentytwentyfour` (my twenty twenty four theme). you can install new 'twenty twenty four' theme. if you install new 'twenty twenty four' theme, in your theme 'functions.php' file just add..
+
 ```
 // Custom XStore functions (BDCalling IT)
 
@@ -117,3 +129,14 @@ function save_custom_pricing_fields($post_id) {
 add_action('woocommerce_process_product_meta', 'save_custom_pricing_fields');
 
 ```
+
+5. Now you can check this in the WordPress dashboard: Go to Products > All Products.Find your product and click Edit.
+   On the right side under Product Categories, ensure "Walking Tours" is checked where Slug must be 'walking-tours'.
+
+6. I also added the database. you can input it into phpmyadmin. `https://github.com/aa-nadim/xstore-bdcalling-wordpress-task/blob/main/database/xstore.sql`
+
+## Project's demo
+
+![Xstore Single Product](https://raw.githubusercontent.com/aa-nadim/xstore-bdcalling-wordpress-task/main/database/Xstore%20single%20product.png)
+
+![XStore Cart](https://raw.githubusercontent.com/aa-nadim/xstore-bdcalling-wordpress-task/main/database/XStore%20cart.png)
