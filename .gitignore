@@ -1,0 +1,21 @@
+# .gitignore file
+#Ignore all files
+/*
+*.map
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+!/wp-content/plugins
+/wp-content/themes/*
+/wp-content/plugins/*
+
+
+# Includelist some files
+!.gitignore
+!README.md
+
+# Include only theme files
+!/wp-content/themes/twentytwentyfour
+# Include only plugin files
+!/wp-content/plugins/woocommerce
+
