@@ -12,6 +12,7 @@
 
 # Includelist some files
 !.gitignore
+!database
 !README.md
 
 # Include only theme files
