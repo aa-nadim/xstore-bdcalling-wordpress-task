@@ -139,6 +139,8 @@ add_action('woocommerce_process_product_meta', 'save_custom_pricing_fields');
 
 ## Project's demo
 
+![Xstore admin](https://raw.githubusercontent.com/aa-nadim/xstore-bdcalling-wordpress-task/main/database/XStore%20admin.png)
+
 ![Xstore Single Product](https://raw.githubusercontent.com/aa-nadim/xstore-bdcalling-wordpress-task/main/database/Xstore%20single%20product.png)
 
 ![XStore Cart](https://raw.githubusercontent.com/aa-nadim/xstore-bdcalling-wordpress-task/main/database/XStore%20cart.png)
